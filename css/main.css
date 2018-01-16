@@ -1,0 +1,229 @@
+body {
+	color: #494949;
+	background: #f9f9f9;
+	margin: 0px;
+	overflow: scroll;
+}
+
+[data-external-page=true] {
+	background: 0 !important;
+}
+
+.page {
+	background: #f9f9f9;
+	background-color: #f9f9f9;
+}
+
+.ui-page-active {
+	background: #f9f9f9;
+	background-color: #f9f9f9;
+}
+
+.ui-dialog-contain {
+	width: 92.5%;
+	max-width: 800px;
+	margin: 10% auto 15px auto;
+	padding: 0;
+	position: relative;
+	top: -15px;
+}
+
+em {
+	font-style: italic;
+	background: yellow;
+} 
+
+/* listviews with 3 cells per row for critical info */
+div.cell3Lc {
+	width:20%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+	white-space: normal !important;
+}
+div.cell3Mc {
+	width:20%;
+	float:left;
+	text-align: center;
+	white-space: normal !important;
+}
+div.cell3Rc {
+	width:60%;
+	float:left;
+	text-align: left;
+	white-space: normal !important;
+}
+
+
+/* listviews with 3 cells per row */
+div.cell3L {
+	width:16%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+	white-space: normal !important;
+}
+div.cell3M {
+	width:40%;
+	float:left;
+	white-space: normal !important;
+}
+/* middle cell with input text and button to the right */
+div.cell3Ma {
+	width:65%;
+	float:left;
+	white-space: normal !important;
+}
+/* middle cell with input text */
+div.cell3Mb {
+	width:80%;
+	float:left;
+	white-space: normal !important;
+}
+div.cellMini {
+	float:left;
+	text-align: center;
+}
+div.cell3R {
+	width:44%;
+	float:left;
+	white-space: normal !important;
+}
+div.cell3Mp {
+	width:40%;
+	float:left;
+	text-align: center;
+	white-space: normal !important;
+}
+div.cell3Rp {
+	width:35%;
+	float:left;
+	text-align: center;
+	white-space: normal !important;
+}
+
+/* align sparkline */
+canvas {
+	vertical-align: middle !important;
+}
+
+/* listviews with 2 cells per row */
+div.cell2L {
+	width:50%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+	white-space: normal !important;
+}
+div.cell2R {
+	width:50%;
+	float:left;
+	white-space: normal !important;
+}
+
+.canceled {
+	font-weight:normal;
+}
+
+textarea.ui-input-text { height: inherit !important}
+
+label.left-block {
+	width:20%;
+	float:left;
+	word-wrap: break-word;
+}
+
+label.left-label {
+	width:10%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+}
+
+div.float-left {
+	width:150px;
+	float:left;
+}
+
+div.float-right {
+	/* Firefox */
+	width: -moz-calc(98% - 150px) !important;
+	/* WebKit */
+	width: -webkit-calc(98% - 150px) !important;
+	/* Opera */
+	width: -o-calc(98% - 150px) !important;
+	/* Standard */
+	width: calc(98% - 150px) !important;
+	float:right;
+}
+
+div.float-left-search {
+	/* Firefox */
+	width: -moz-calc(98% - 140px) !important;
+	/* WebKit */
+	width: -webkit-calc(98% - 140px) !important;
+	/* Opera */
+	width: -o-calc(98% - 140px) !important;
+	/* Standard */
+	width: calc(98% - 140px) !important;
+	float:left;
+}
+
+div.left-block {
+	width:25%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+}
+
+div.right-block {
+	width:75%;
+	float:left;
+}
+
+div.normal-block {
+	width:25%;
+	float:left;
+	font-weight:normal;
+	word-wrap: break-word;
+}
+
+div.value-block {
+	width:25%;
+	float:left;
+}
+
+div.clear {
+	clear:both;
+}
+
+.hide {
+	display:none;
+}
+
+div.ui-rangeslider input {
+   width: 120px !important;
+}
+
+div.ui-rangeslider .ui-rangeslider-sliders {
+	/* Firefox */
+	width: -moz-calc(80% - 190px) !important;
+	/* WebKit */
+	width: -webkit-calc(80% - 190px) !important;
+	/* Opera */
+	width: -o-calc(80% - 190px) !important;
+	/* Standard */
+	width: calc(80% - 190px) !important;
+}
+
+th.header {
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+th.headerSortUp {
+	background-image: url(../images/asc.png);
+}
+th.headerSortDown {
+	background-image: url(../images/desc.png);
+}
