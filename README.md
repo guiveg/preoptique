@@ -27,6 +27,8 @@ Some screenshots of PreOptique:
 
 ![screenshot](/screenshots/preoptique3.png)
 
+![screenshot](/screenshots/preoptique4.png)
+
 
 Configuration
 ==========
