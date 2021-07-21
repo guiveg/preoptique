@@ -2,6 +2,10 @@ PreOptique
 ==========
 PreOptique is a novel hybrid semantic and text-based system that provides integrated access to patient health records scattered over several databases and document repositories.
 
+Please cite PreOptique as:
+
+> G. Vega-Gorgojo, L. Slaughter, M. Giese. Seeing the Whole Picture: Integrated Pre-Surgery Reports with PreOptique. Journal of Biomedical Semantics. 10(5), 2019.
+
 
 Usage
 ==========
